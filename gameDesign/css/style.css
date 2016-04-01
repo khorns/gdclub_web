@@ -1,0 +1,178 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+    background-color: #818181;
+}
+
+#wrapper {
+    min-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+
+header {
+    background-color: #59d5d8;
+    height: 150px;
+    padding: 4px;
+}
+
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 3.5em;
+}
+
+header h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+}
+
+.main_menu {
+    position: relative;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #818181;
+}
+
+ul.main_menu {
+    margin-top: 0px;
+}
+
+.main_menu li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+.main_menu a:hover {
+    color: #59d5d8;
+/*    background-color: antiquewhite;*/
+/*    padding-bottom: 1em;*/
+    transition: ease-in-out .10s;
+}
+
+.main_menu ul {
+    display: none;
+    margin-top: -3px;
+    padding: 10px 0px;
+    position: absolute;
+    margin-bottom: 20px;
+/*    background-color: #a29c9c;*/
+    text-align: left;
+}
+
+.main_menu ul li{
+    display: block;
+    text-align: left;
+    padding: 0;
+    font-size: 15px;
+/*    margin-bottom: 5px;*/
+}
+
+.main_menu li:hover ul{
+    display: block;
+    width: 220px;
+    transition: ease-in-out .10s;
+}
+
+
+.main_menu li ul a {
+    display: block;
+    padding: 8px 30px;
+    align-content: center;
+    background-color: #818181;
+/*    background-color: #a29c9c;*/
+    column-width: 100%;
+}
+
+.main_menu li ul a:hover {
+    background-color: #646464;
+}
+
+
+footer {
+/*    margin-top: 100px;*/
+    margin: 0;
+    height: 110px;
+    background-color: #59d5d8;
+}
+
+
+.headerTitle {
+    padding: 0px;
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ceced1;
+    text-align: center;
+    
+}
+
+#empty {
+    height: 8px;
+    background-color: #818181; 
+}
+
+.connect {
+    padding: 0px 20px;
+    float: left;
+}
+
+.connect a {
+/*    padding-top: 0;*/
+    padding-right: 5px;
+}
+
+#year{
+    float: right;
+    color: white;
+    padding: 26px;
+}
+
+h4 {
+    color: white;
+    margin-top: 0px;
+    padding-top: .4em;
+    padding-bottom: 0em;
+}
+
+
+.jumbotron {
+    background-image:url('http://www.blackgate.com/wp-content/uploads/2014/08/sword_art_online.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+    bottom:100px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;  
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
